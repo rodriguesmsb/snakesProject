@@ -1,1 +1,1 @@
-# Increase in the incidence of snakebite accidents due to changes in humidity levels: A time series study
+# Increase on the risk of snakebites incidence due to changes on humidity levels: A time series study in four municipalities of the State of Rondônia.

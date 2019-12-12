@@ -1,6 +1,12 @@
+#' Functions created to run Bayesian time series model usinh INLA
+
+
 #load packages used during this analysis
+
 packages_list <- c("tidyverse", "INLA", "SpatialEpi", "lubridate", "ggpubr")
 lapply(packages_list, require, character.only = TRUE)
+
+
 
 make_df <- function(path){
    df <- read_csv(path)
@@ -40,12 +46,15 @@ run_inla <- function(data, clima, plot_ci = FALSE) {
   data <- data %>%
     mutate(E = expected(pop,total, 1))
     model <- total ~ max_temp + min_temp + rain + hum +
-    #omega
+    
+    #define hyperpriors for the structuted random effect (rw1)
     f(time_str, model = "rw1", hyper = list("prec" = list(prior = "loggamma", param = c(0.5, 0.0005)))) +
+
+    #define hyperpriors for the unstructuted random effect (iid)
     f(time_non_str, model = "iid", hyper = list("prec" = list(prior = "loggamma", param = c(0.5, 0.0005))))
 
 
-
+  #run model
   model <- inla(model, family = "poisson", E = E, data = data,
                            
                            # Fixed effect priors: beta0, beta1,...,beta3

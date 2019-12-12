@@ -24,7 +24,7 @@ for(desc_var in desc_vars){
     print(knitr::kable(compute_prop(dados, !! rlang::sym(desc_var))))
 }
 
-
+#compute descriptive analysis in each city
 compute_desc(dados, AGE, CITY, "median") %>% spread(key = "CITY", value = "Median")
 for(desc_var in desc_vars){
  print("Proportion values")

@@ -1,4 +1,6 @@
-#' Functions created to run Bayesian time series model usinh INLA
+# -*- coding:utf8 -*-
+
+#Functions created to run Bayesian time series model usinh INLA
 
 
 #load packages used during this analysis

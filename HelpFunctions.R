@@ -92,7 +92,7 @@ run_inla <- function(data, clima, plot_ci = FALSE) {
                     UB = unlist(upper_bond))
   
   graph <- ggplot(gg_df, aes(x = Time, y = Estimated)) + geom_line() + geom_hline(yintercept = 1) +
-    theme_bw(base_size = 28) + ylab(expression(exp(omega[t])))
+    theme_bw(base_size = 28) + ylab("Relative Risk")
   city <- data$city[1]
   graph + ggsave(paste0("results/RR_",city,".tiff"), device = "tiff", width = 18, height = 12)
   if(isTRUE(plot_ci)){

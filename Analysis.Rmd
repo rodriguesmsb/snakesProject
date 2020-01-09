@@ -7,7 +7,7 @@ editor_options:
 
 ```{r}
 #Load specific function created for this 
-source("S2A_useFunc.R")
+source("HelpFunctions.R")
 ```
 
 

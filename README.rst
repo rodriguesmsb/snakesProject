@@ -11,5 +11,8 @@ Repo contains the following files:
 - HelpFunctions.R &rarr; a file with functions created to help the analysis process
 
 
+\begin{equation}
 
 $\frac{1}{n}$
+
+\end{equation}

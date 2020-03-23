@@ -1,5 +1,5 @@
-Increase on the risk of snakebites incidence due to changes on humidity levels: A time series study in four municipalities of the State of Rondônia.
-====
+#Increase on the risk of snakebites incidence due to changes on humidity levels: A time series study in four municipalities of the State of Rondônia.
+
 
 
 
@@ -13,5 +13,5 @@ Repo contains the following files:
 - Analysis.Rmd &rarr; a file with the R code used to analyze the data
 - HelpFunctions.R &rarr; a file with functions created to help the analysis process
 
-:math:`A = (\pi/4) d^2`
+
 

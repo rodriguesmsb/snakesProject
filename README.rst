@@ -14,5 +14,5 @@ Repo contains the following files:
 - HelpFunctions.R &rarr; a file with functions created to help the analysis process
 
 
-``x ~ N(0,1)``
+``x ~ N(0,1)^2``
 

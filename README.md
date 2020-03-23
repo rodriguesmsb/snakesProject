@@ -10,6 +10,6 @@ Repo contains the following files:
 - Analysis.Rmd &rarr; a file with the R code used to analyze the data
 - HelpFunctions.R &rarr; a file with functions created to help the analysis process
 
-$\beta$
+$beta$
 
 

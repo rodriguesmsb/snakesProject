@@ -14,5 +14,5 @@ Repo contains the following files:
 - HelpFunctions.R &rarr; a file with functions created to help the analysis process
 
 
-:math: "A_\text{c} = (\pi/4) d^2".
+:math: `A_\text{c} = (\pi/4) d^2`.
 

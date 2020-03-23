@@ -11,4 +11,3 @@ Repo contains the following files:
 - HelpFunctions.R &rarr; a file with functions created to help the analysis process
 
 
-&\sum;

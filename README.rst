@@ -12,4 +12,4 @@ Repo contains the following files:
 
 
 
-\\( \frac{1}{n} \\)
+$\frac{1}{n}$

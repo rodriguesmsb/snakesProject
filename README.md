@@ -12,4 +12,4 @@ Repo contains the following files:
 
 
 
-$$ \sum_{\forall i}{x_i^{2}} $$
+\\( \frac{1}{n} \\)
